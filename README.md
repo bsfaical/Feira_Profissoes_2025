@@ -1,4 +1,4 @@
-# 🤖 Projeto de IA - Feira das Profissões 2025 
+# 🤖 Projeto de IA - Feira de Profissões 2025 
 
 Este projeto contém notebooks Jupyter para tarefas de Inteligência Artificial, como estilização e detecção de rosto em tempo real.
 
@@ -78,7 +78,6 @@ A saída esperada após a execução é semelhante a:
 - Python 3.11 instalado
 - Câmera (para notebooks que utilizam captura de vídeo em tempo real)
 
-#### A) Modo interativo
 Execute o Jupyter lab
 
 Jupyter Lab (interface mais moderna do Jupyter)
@@ -103,12 +102,4 @@ Seleciona um dos ipynb e execute as células
 Para fechar a executação, volte para o terminal e digite
 ```
 ctrl + c
-```
-
-#### B) Modo automático (sem interface)
-Você pode rodar os notebooks diretamente e salvar os resultados com:
-
-```
-jupyter nbconvert --to notebook --execute RIA.ipynb --output RIA_output.ipynb
-jupyter nbconvert --to notebook --execute detector_rosto.ipynb --output detector_rosto_output.ipynb
 ```

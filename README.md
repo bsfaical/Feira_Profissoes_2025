@@ -27,9 +27,14 @@ Ia de detecção de rostos, permite realizar diversas outras atividades, tal com
 ### 1. Criar o ambiente virtual
 
 Abra o terminal (ou PowerShell) na **pasta raiz do projeto** e execute:
-
-```bash
+#### Windows
+```PowerShell
 py -3.11 -m venv venv # versão especificada
+```
+
+#### Linux/Mac
+```Bash
+python3.11 -m venv venv # versão especificada
 ```
 
 ### 2. Ativar o ambiente virtual
@@ -48,7 +53,7 @@ Depois tente ativar de novo com:
 venv\Scripts\Activate.ps1
 ```
 
-#### linux/mac
+#### Linux/Mac
 ```bash
 source venv/bin/activate
 ```
@@ -69,6 +74,7 @@ Se você estiver utilizando MacOs, rode também:
 ```
 pip install -r requirements-mac.txt
 ```
+
 A saída esperada após a execução é semelhante a:
 ![alt text](images/output-requirements.png)
 
@@ -78,9 +84,7 @@ A saída esperada após a execução é semelhante a:
 - Python 3.11 instalado
 - Câmera (para notebooks que utilizam captura de vídeo em tempo real)
 
-Execute o Jupyter lab
-
-Jupyter Lab (interface mais moderna do Jupyter)
+Execute o Jupyter lab (interface mais moderna do Jupyter)
 ```
 jupyter lab
 ```

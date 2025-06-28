@@ -1,18 +1,20 @@
 # 🤖 Projeto de IA - Feira de Profissões 2025 
 
-Este projeto contém notebooks Jupyter para tarefas de Inteligência Artificial, como estilização e detecção de rosto em tempo real.
+Este projeto contém notebooks Jupyter para tarefas de Inteligência Artificial, como detecção e estilização de rosto em tempo real.
 
-### Sobre o RIA - a IA retratista
+### 🎨 Sobre o RIA - A IA Retratista
 A RIA é uma IA especializada em gerar retratos do rosto dos modelos que autorizam a produção. Contudo, a RIA é uma artista incompreendida (nem mesmo ela se compreende) e não salva as artes que produz, por que julga não estarem perfeitas.
 
-Opções para o retrato:
-- Digite 1 para utilizar lápis de cor
-- Digite 2 para utilizar tinta a base de água
-- Digite 3 para utilizar tinta óleo
 
-### Sobre o Detector de Rostos
+#### Opções de Estilo para o Retrato:
 
-Ia de detecção de rostos, permite realizar diversas outras atividades, tal como o RIA.
+- Lápis de cor
+- Tinta à base de água
+- Tinta óleo
+
+### 🫥 Sobre o Detector de Rostos
+
+Este módulo captura vídeo da webcam, detecta rostos em tempo real e os destaca no quadro. Ele serve como base para funcionalidades como as da RIA e pode ser utilizado para outras aplicações de visão computacional.
 
 
 # 🧪 Como testar
@@ -20,11 +22,11 @@ Ia de detecção de rostos, permite realizar diversas outras atividades, tal com
 ## 📁 Requisitos
 
 - [Python 3.11 instalado ](https://www.python.org/downloads/release/python-3110/)
-- Câmera (para notebooks que utilizam captura de vídeo em tempo real)
+- Câmera (os notebooks utilizam captura de imagem em tempo real)
 
 ## ⚙️ Configuração do Ambiente
 
-### 1. Criar o ambiente virtual
+### 1️⃣ Criar o ambiente virtual
 
 Abra o terminal (ou PowerShell) na **pasta raiz do projeto** e execute:
 #### Windows
@@ -37,7 +39,7 @@ py -3.11 -m venv venv # versão especificada
 python3.11 -m venv venv # versão especificada
 ```
 
-### 2. Ativar o ambiente virtual
+### 2️⃣ Ativar o ambiente virtual
 Ative o ambiente de acordo com o seu sistema operacional:
 
 #### Windows
@@ -62,7 +64,7 @@ Você saberá que o ambiente está ativado quando o nome dele aparecer à esquer
 
 ```(venv) PS C:\Local-do-Arquiro\Feira_Profissoes_2025> ```
 
-### 3. Instalar as dependências
+### 3️⃣ Instalar as dependências
 Com o ambiente ativado, instale os pacotes necessários:
 
 ```
@@ -81,8 +83,8 @@ A saída esperada após a execução é semelhante a:
 ## 📓 Executando os notebooks
 
 ⚠️ Se ocorrer erros nessa etapa, certifique-se de atender aos requisitos mínimos 
-- Python 3.11 instalado
-- Câmera (para notebooks que utilizam captura de vídeo em tempo real)
+- Python 3.11 
+- Câmera 
 
 Execute o Jupyter lab (interface mais moderna do Jupyter)
 ```

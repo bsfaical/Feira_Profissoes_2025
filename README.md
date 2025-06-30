@@ -16,6 +16,7 @@ A RIA é uma IA especializada em gerar retratos do rosto dos modelos que autoriz
 
 Este módulo captura vídeo da webcam, detecta rostos em tempo real e os destaca no quadro. Ele serve como base para funcionalidades como as da RIA e pode ser utilizado para outras aplicações de visão computacional.
 
+![Gif funcionamento do detector de rosto](images/gif-detector.gif)
 
 # 🧪 Como testar
 
@@ -24,17 +25,38 @@ Este módulo captura vídeo da webcam, detecta rostos em tempo real e os destaca
 - [Python 3.11 instalado ](https://www.python.org/downloads/release/python-3110/)
 - Câmera (os notebooks utilizam captura de imagem em tempo real)
 
+
+## 🚀 Preparação 
+Faça o download dos códigos e extraia o conteúdo do .zip (de preferência na pasta Downloads para facilitar o acesso).
+
+![Print do botão de Download do GitHub](images/download.png)
+
 ## ⚙️ Configuração do Ambiente
 
 ### 1️⃣ Criar o ambiente virtual
 
-Abra o terminal (ou PowerShell) na **pasta raiz do projeto** e execute:
-#### Windows
+- #### Windows
+Abra o terminal cmd (ou PowerShell) como Administrador
+
+Navegue até a pasta que você descompactou (no exemplo abaixo os códigos estão em Downloads):
+
+```PowerShell
+cd Downloads/Feira_Profissoes_2025-main/Feira_Profissoes_2025-main
+```
+
+Crie o ambiente virtual:
 ```PowerShell
 py -3.11 -m venv venv # versão especificada
 ```
 
-#### Linux/Mac
+- #### Linux/Mac
+Abra o terminal, navegue até a pasta que você descompactou (no exemplo abaixo os códigos estão em Downloads):
+
+```Bash
+cd ~/Downloads/Feira_Profissoes_2025-main/Feira_Profissoes_2025-main
+```
+
+Crie o ambiente virtual:
 ```Bash
 python3.11 -m venv venv # versão especificada
 ```
@@ -42,7 +64,7 @@ python3.11 -m venv venv # versão especificada
 ### 2️⃣ Ativar o ambiente virtual
 Ative o ambiente de acordo com o seu sistema operacional:
 
-#### Windows
+- #### Windows
 ```PowerShell
 venv\Scripts\Activate.ps1
 ```
@@ -55,7 +77,7 @@ Depois tente ativar de novo com:
 venv\Scripts\Activate.ps1
 ```
 
-#### Linux/Mac
+- #### Linux/Mac
 ```bash
 source venv/bin/activate
 ```
@@ -78,7 +100,8 @@ pip install -r requirements-mac.txt
 ```
 
 A saída esperada após a execução é semelhante a:
-![alt text](images/output-requirements.png)
+
+![Saída esperada após executar pip install -r requirements](images/output-requirements.png)
 
 ## 📓 Executando os notebooks
 
@@ -102,8 +125,13 @@ Isso abrirá seu navegador, onde você pode abrir os notebooks:
 - RIA.ipynb
 - detector_rosto.ipynb
 
-Seleciona um dos ipynb e execute as células
-![alt text](images/jupyter.png)
+Selecione um dos arquivos .ipynb e execute as células. Ao clicar em Executar, aguarde alguns segundos até que uma janela com a câmera seja aberta.
+
+💡 Para o bom funcionamento do RIA, recomenda-se que apenas uma pessoa esteja visível na câmera
+
+⚠️ Caso tenha clicado em Executar e nada aconteceu, tente executar novamente (pode levar alguns instantes para carregar)
+
+![Interface do jupyter](images/jupyter.png)
 
 Para fechar a executação, volte para o terminal e digite
 ```

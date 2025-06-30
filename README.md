@@ -27,7 +27,7 @@ Este módulo captura vídeo da webcam, detecta rostos em tempo real e os destaca
 ## 🚀 Preparação 
 Faça o download dos códigos e extraia o conteúdo do .zip (de preferência na pasta Downloads para facilitar o acesso).
 
-![alt text](images/download.png)
+![Print do botão de Download do GitHub](images/download.png)
 
 ## ⚙️ Configuração do Ambiente
 
@@ -98,7 +98,7 @@ pip install -r requirements-mac.txt
 ```
 
 A saída esperada após a execução é semelhante a:
-![alt text](images/output-requirements.png)
+![Saída esperada após executar pip install -r requirements](images/output-requirements.png)
 
 ## 📓 Executando os notebooks
 
@@ -123,10 +123,12 @@ Isso abrirá seu navegador, onde você pode abrir os notebooks:
 - detector_rosto.ipynb
 
 Selecione um dos arquivos .ipynb e execute as células. Ao clicar em Executar, aguarde alguns segundos até que uma janela com a câmera seja aberta.
+⚠️ Para o bom funcionamento do RIA, recomenda-se que apenas uma pessoa esteja visível na câmera
+⚠️ Caso tenha clicado em Executar e nada aconteceu, tente executar novamente (pode levar alguns instantes para carregar)
 
-![alt text](images/jupyter.png)
+![Interface do jupyter](images/jupyter.png)
 
-⚠️ Caso tenha clicado em Executar e nada aconteceu, tente executar novamente (pode levar alguns instantes para carregar).
+![Gif funcionamento do detector de rosto](images/gif-detector.gif)
 
 Para fechar a executação, volte para o terminal e digite
 ```

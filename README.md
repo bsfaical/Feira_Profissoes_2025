@@ -16,6 +16,8 @@ A RIA é uma IA especializada em gerar retratos do rosto dos modelos que autoriz
 
 Este módulo captura vídeo da webcam, detecta rostos em tempo real e os destaca no quadro. Ele serve como base para funcionalidades como as da RIA e pode ser utilizado para outras aplicações de visão computacional.
 
+![Gif funcionamento do detector de rosto](images/gif-detector.gif)
+
 # 🧪 Como testar
 
 ## 📁 Requisitos
@@ -33,7 +35,7 @@ Faça o download dos códigos e extraia o conteúdo do .zip (de preferência na 
 
 ### 1️⃣ Criar o ambiente virtual
 
-#### Windows
+- #### Windows
 Abra o terminal cmd (ou PowerShell) como Administrador
 
 Navegue até a pasta que você descompactou (no exemplo abaixo os códigos estão em Downloads):
@@ -47,7 +49,7 @@ Crie o ambiente virtual:
 py -3.11 -m venv venv # versão especificada
 ```
 
-#### Linux/Mac
+- #### Linux/Mac
 Abra o terminal, navegue até a pasta que você descompactou (no exemplo abaixo os códigos estão em Downloads):
 
 ```Bash
@@ -62,7 +64,7 @@ python3.11 -m venv venv # versão especificada
 ### 2️⃣ Ativar o ambiente virtual
 Ative o ambiente de acordo com o seu sistema operacional:
 
-#### Windows
+- #### Windows
 ```PowerShell
 venv\Scripts\Activate.ps1
 ```
@@ -75,7 +77,7 @@ Depois tente ativar de novo com:
 venv\Scripts\Activate.ps1
 ```
 
-#### Linux/Mac
+- #### Linux/Mac
 ```bash
 source venv/bin/activate
 ```
@@ -98,6 +100,7 @@ pip install -r requirements-mac.txt
 ```
 
 A saída esperada após a execução é semelhante a:
+
 ![Saída esperada após executar pip install -r requirements](images/output-requirements.png)
 
 ## 📓 Executando os notebooks
@@ -123,12 +126,12 @@ Isso abrirá seu navegador, onde você pode abrir os notebooks:
 - detector_rosto.ipynb
 
 Selecione um dos arquivos .ipynb e execute as células. Ao clicar em Executar, aguarde alguns segundos até que uma janela com a câmera seja aberta.
-⚠️ Para o bom funcionamento do RIA, recomenda-se que apenas uma pessoa esteja visível na câmera
+
+💡 Para o bom funcionamento do RIA, recomenda-se que apenas uma pessoa esteja visível na câmera
+
 ⚠️ Caso tenha clicado em Executar e nada aconteceu, tente executar novamente (pode levar alguns instantes para carregar)
 
 ![Interface do jupyter](images/jupyter.png)
-
-![Gif funcionamento do detector de rosto](images/gif-detector.gif)
 
 Para fechar a executação, volte para o terminal e digite
 ```
